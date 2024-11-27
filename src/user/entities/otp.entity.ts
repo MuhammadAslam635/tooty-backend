@@ -1,8 +1,9 @@
+import { truncate } from 'fs/promises';
 import { Column, DataType, Model, PrimaryKey, Table } from 'sequelize-typescript';
 
 @Table({
   tableName: 'otps',
-  timestamps: true
+  timestamps: truncate
 })
 export class Otp extends Model {
   @PrimaryKey

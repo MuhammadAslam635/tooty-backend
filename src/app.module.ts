@@ -15,7 +15,7 @@ import { Otp } from './user/entities/otp.entity';
       dialect:"postgres",
       port:5432,
       username:"postgres",
-      password:"azzan310",
+      password:"azzan31 0",
       database:"tooty",
       autoLoadModels:true,
       models:[User,Otp],
